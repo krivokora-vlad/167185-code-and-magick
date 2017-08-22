@@ -30,7 +30,7 @@ window.renderStatistics = function (ctx, names, times) {
 
   for(var i = 0; i < times.length; i++) {
     if (names[i] == 'Вы') {
-      ctx.fillStyle = 'rgba(255, 0, 0, 1';
+      ctx.fillStyle = 'rgba(255, 0, 0, 1)';
       ctx.fillRect(initialX + (barWidth + indent) * i, initialY - times[i] * step, indent, times[i] * step);
     }
     else {
